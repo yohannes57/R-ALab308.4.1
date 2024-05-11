@@ -217,10 +217,11 @@ for (let value of objArray) {
 console.log("first method result : " + toOrginalStr);
 
 //
-//let's assign first the key attribute to the string
+//second way ,to specifically to this problem
+//we can do as follows
+//let giv the key value first then we Iterate the values with loop
 let cvsData = `id,name,occupation,age\\n`;
 //then we iterate with for loop for a number of row ,which is objArray.lenght
-//
 for (let i = 0; i < objArray.length; i++) {
   for (let j = i; j >= i; j--) {
     //to remove \n from end
